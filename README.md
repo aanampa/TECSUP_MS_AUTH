@@ -2,11 +2,11 @@
 Este proyecto es un microservicio RESTful desarrollado con Java Spring Boot encargado de la gestión de usuarios (CRUD) y autenticación. Está diseñado para ser desplegado fácilmente mediante Docker y utiliza PostgreSQL como motor de base de datos.
 
 ## Tecnologías
-
+El proyecto utiliza el siguiente stack tecnológico:
 * **Lenguaje:** Java 17+
 * **Framework:** Spring Boot (Web, JPA, Validation)
 * **Base de Datos:** PostgreSQL
-* **Herramientas:** Maven, Docker
+* **Herramientas:** Maven, Docker & Docker Compose
 
 ## Instalación con Docker
 
