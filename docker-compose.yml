@@ -1,0 +1,14 @@
+
+services:
+  postgres-db:
+    image: postgres:15-alpine
+    container_name: tecsup_postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres123
+      - POSTGRES_DB=auth_db
+    ports:
+      - "5455:5432"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
