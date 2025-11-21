@@ -8,13 +8,15 @@ Este proyecto es un microservicio RESTful desarrollado con Java Spring Boot enca
 * **Base de Datos:** PostgreSQL
 * **Herramientas:** Maven, Docker
 
-## Ejecución con Docker
+## Instalación con Docker
 
 1. Asegúrate de tener Docker instalado.
 2. Clonar el repositorio
    ```bash
-   git clone docker-compose up --build -d
-   cd SSSSSS
+   git clone https://github.com/aanampa/TECSUP_MS_AUTH.git
+
+   # ingresar a carpeta del proyecto
+   cd TECSUP_MS_AUTH
    ```
 
 4.  Ejecuta el siguiente comando en la raíz del proyecto:
