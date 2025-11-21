@@ -35,3 +35,26 @@ Este proyecto es un microservicio RESTful desarrollado con Java Spring Boot enca
     ```bash
     ./mvnw spring-boot:run
     ```
+## Ejecución
+
+* Listar usuarios:
+GET http://localhost:8055/api/usuarios
+
+* Registrar usuario:
+POST http://localhost:8055/api/usuarios
+```bash
+{ 
+  "login": "adminportal", 
+  "password": "mipassword123",
+  "nombreUsuario": "Administrador del Portal"
+}
+```
+* Autenticar usuario:
+POST http://localhost:8055/api/usuarios/login
+```bash
+{ 
+  "login": "adminportal", 
+  "password": "mipassword123"
+}
+```
+
